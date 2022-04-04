@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+
+
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+
+    background-image: linear-gradient(rgba(9, 177, 28, 0.7),rgba(25, 8, 206, 0.7)),url(Coolphoto.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-link{
+    flex: 1;
+    text-align: right;
+}
+.nav-link ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+}
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav-link ul li:hover::after{
+    width: 100%;
+}
+.text-box{
+    width: 90%;
+    color:rgb(252, 248, 248);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.text-box h1{
+    font-size: 62px;
+}
+.button{
+    display: inline-block;
+    text-decoration: none;
+    color:#fff;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+.button:hover{
+    border: 1px solid #f44336;
+    background: #f44336;
+    transition: 1s;
+    
+} 
+
+.sub-header{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(202, 58, 22, 0.7), rgba(5, 39, 174, 0.7)),url(Coolphoto2.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+}
+.sub-subheader{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(107, 226, 237, 0.7), rgba(62, 90, 204, 0.7)),url(Coolphoto3.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+}
+.sub-phpheader{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(22, 187, 202, 0.7), rgba(5, 39, 174, 0.7)),url(Coolphoto4.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+}
+.text-box-h2{
+    width: 90%;
+    color:rgb(252, 248, 248);
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.text-box-h3{
+    width: 90%;
+    color:rgb(249, 243, 243);
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.text-box-h4{
+    width: 90%;
+    color:rgb(248, 246, 246);
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.text-box-h5{
+    width: 90%;
+    color:rgb(12, 12, 12);
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.text-box-h6{
+    width: 90%;
+    color:rgb(12, 12, 12);
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.text-box-h7{
+    width: 90%;
+    color:rgb(12, 12, 12);
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
