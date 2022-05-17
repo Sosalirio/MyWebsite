@@ -1,0 +1,77 @@
+{
+    "basics": {
+      "name": "Ariel O. Cruz Sosa",
+      "label": "",
+      "picture": "",
+      "email": "cruzsosa12632@gmail.com",
+      "phone": "787-518-6093",
+      "degree": "High School degree",
+      "location": {
+        "address": "Campiñas, Carretera 31",
+        "postalCode": "PO box 3129, campiñas juncos",
+        "city": "Juncos",
+        "countryCode": "Puerto Rico",
+        "region": "East"
+      },
+      "profiles": [
+        {
+          
+        }
+      ]
+    },
+    "volunteer": [
+      {
+        "organization": "Boy Scouts of America",
+        "position": "Senior Patrol Leader",
+        "startDate": "Julio 2006",
+        "endDate": "May 2019",
+        "summary": "During my career as a member of the Boy Scouts i did several volanteer works for diferent organizations like public parks and orphanages",
+        "highlights": [
+          "I built a chicken coop for an orphanage so they had some self sustainability"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "Academia Cristo de los Milagros",
+        "startDate": "August 2006",
+        "endDate": "May, 2019",
+        "gpa": "3.68",
+        "courses": [
+          "High School courses"
+        ]
+      }
+    ],
+    "awards": [
+      {
+        "title": "Honors award",
+        "date": "May 2019",
+        "awarder": "Academia Cristo de los Milagros",
+        "summary": "I graduated with Honors"
+      }
+    ],
+    "skills": [
+      {
+        "name": "Programming Languages",
+        "level": "Intermediate",
+        "keywords": [
+          "C++, Arduino, HTML"
+        ]
+      }
+    ],
+    "languages": [
+      {
+        "language": "English",
+        "fluency": "Exelent"
+      }
+    ],
+    "interests": [
+      {
+        "name": "Video Games",
+        "keywords": [
+          "Story games, RPG"
+        ]
+      }
+    ]
+  }
+  
